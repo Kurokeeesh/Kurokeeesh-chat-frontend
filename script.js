@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000"); // Connexion au serveur
+const socket = io("https://kurokeeesh-chat-backend-production.up.railway.app/"); // Connexion au serveur
 socket.on("connect", () => {
     console.log("Connecté au serveur !");
 });
